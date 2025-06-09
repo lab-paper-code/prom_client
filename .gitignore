@@ -5,3 +5,5 @@ __pycache__/
 *.pt
 *.png
 .DS_Store
+lfw_face_dataset
+lfw_face_dataset_10

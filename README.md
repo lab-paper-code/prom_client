@@ -6,7 +6,6 @@
 sudo apt update
 sudo apt-get install ffmpeg
 sudo apt-get install iperf3
-
 ```
 
 ### 1. Clone the repository:
@@ -48,4 +47,22 @@ curl -X GET "http://[ServerIP]:8000/image_predict/0-30"
 - This command instructs the server to perform a size reduction operation on videos 0 through 29.
 ```bash
 curl -X GET "http://[ServerIP]:8000/video_resize/0-30"
+```
+
+## Required Large Files (Not in Git)
+
+Please ensure the following files/directories are placed in the project root:
+
+- `lfw_face_dataset` — face dataset
+- `lfw_face_dataset_10` — face dataset
+- `yolov8n.pt` — YOLOv8n pretrained model
+
+These files are not included in the repository due to size limitations.  
+Download them manually and place them as follows:
+```
+prom_client/
+├── lfw_face_dataset
+├── lfw_face_dataset_10
+├── yolov8n.pt
+...
 ```
