@@ -1,0 +1,6 @@
+HOSTNAME = "155.230.34.203"
+USERNAME = "orin"
+PASSWORD = "deallab522"
+LOCAL_PATH = "/home/orin/temp"
+REMOTE_PATH = ""
+MATCH_STRING = "resource_usage"

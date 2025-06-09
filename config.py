@@ -1,0 +1,16 @@
+YOLO_INPUT_PATH = "/uploads/images"
+YOLO_OUTPUT_PATH = "/uploads"
+FFMPEG_INPUT_PATH = "."
+FFMPEG_OUTPUT_PATH = "."
+BANDWIDTH = 1
+MEM = 1
+IP = "155.230.34.203"
+Port = 8000
+IPERF3_IP = "155.230.36.27"
+IPERF3_Port = 5201
+PROCESS_IMAGE = 100
+ISPLOT = True
+DB_PATH = "."
+DATASET_PATH = "."
+COLLECTION_NAME = "lfw_faces"
+MODE = "yolo"
